@@ -40,7 +40,7 @@ a {
 .hero-section-signup {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
 }
 
 button {
@@ -69,5 +69,44 @@ button {
 .hero-section-image {
     height: auto;
     width: 500px;
+}
 
+.random-info-section {
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.random-info-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.four-info-text-image {
+    display: flex;
+    gap: 40px;
+}
+
+.first-info-image, .second-info-image, .third-info-image, .fourth-info-image {
+    height: auto;
+    width: 150px;
+    border: 4px solid;
+    border-color: #3882F6;
+    border-radius: 20px;
+}
+
+.first-info, .second-info, .third-info, .fourth-info {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-info-text, .second-info-text, .third-info-text, .fourth-info-text {
+    color: #1F2937;
+    text-align: center;
 }
