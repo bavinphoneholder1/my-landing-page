@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     margin: 0px;
+    font-family: Roboto;
 }
 
 .header {
@@ -50,6 +51,7 @@ button {
     border-radius: 7px;
     color: #F9FAF8;
     font-size: 15px;
+    font-weight: bold;
     border: none;
 }
 
@@ -109,4 +111,26 @@ button {
 .first-info-text, .second-info-text, .third-info-text, .fourth-info-text {
     color: #1F2937;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 120px 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote {
+    color: #4c5664;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quoter {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
 }
