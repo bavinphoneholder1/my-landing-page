@@ -6,7 +6,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 0 150px;
+    padding: 0 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,6 +15,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 a {
@@ -32,7 +33,7 @@ a {
 
 .hero-section {
     background-color: #1F2937;
-    padding: 110px 150px;
+    padding: 110px 250px;
     display: flex;
     gap: 50px;
     align-items: center;
@@ -44,9 +45,9 @@ a {
     gap: 10px;
 }
 
-button {
+.hero-section-signup-button {
     width: 110px;
-    height: 30px;
+    height: 35px;
     background-color: #3882F6;
     border-radius: 7px;
     color: #F9FAF8;
@@ -133,4 +134,45 @@ button {
     font-size: 25px;
     display: flex;
     justify-content: end;
+}
+
+.sign-up-section {
+    padding: 110px 250px;
+}
+
+.sign-up-banner {
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px 100px;
+    display: flex;
+    gap: 150px;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+
+.sign-up-caption {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.call-to-action {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.sign-up-extra-text {
+    font-size: 17px;
+}
+
+.call-to-action-sign-up-button {
+    width: 110px;
+    height: 35px;
+    background-color: #3882F6;
+    border-radius: 7px;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
 }
